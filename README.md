@@ -6,4 +6,4 @@
 6. <https://aleksandr3012.github.io/bigWaves/virgin-beach.html>
 7. <https://aleksandr3012.github.io/bigWaves/about.html>
 8. <https://aleksandr3012.github.io/bigWaves/for-partners.html>
-9. <https://aleksandr3012.github.io/bigWaves/news.html>
+9. <https://aleksandr3012.github.io/bigWaves/moon-rock.html>
