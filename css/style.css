@@ -2608,20 +2608,23 @@ sVirginBeach__logo img {
 .sGallery--moonRock .imgBg img {
 
 }
+
 .sGallery--moonRock .tabs__caption {
 	gap: normal;
 	justify-content: normal;
 	padding-bottom: 64px;
 	margin-bottom: 0;
 }
-.sGallery--moonRock .tabs__caption .row{
+
+.sGallery--moonRock .tabs__caption .row {
 	width: 100%;
 }
-.sGallery--moonRock .tabs__btn{
+
+.sGallery--moonRock .tabs__btn {
 	padding: 20px;
 }
 
-.sGallery--moonRock .btn{
+.sGallery--moonRock .btn {
 	width: 317px;
 }
 
@@ -2851,6 +2854,30 @@ sVirginBeach__logo img {
 	background-image: url('../img/map-place-2.png');
 	left: -28px;
 	top: -16px;
+}
+
+.sLocation__item--2.active {
+	right: 31%;
+	top: 3%;
+}
+
+.sLocation__item--2.active img {
+	width: 176px;
+	height: 176px;
+}
+
+.sLocation__item--2.active span {
+	transform: translate(30px, 75px);
+}
+
+.sLocation__item--2.active:before {
+	width: 300px;
+	height: 400px;
+	background-image: url(../img/map-place-2-active.png);
+	left: -61px;
+	top: -52px;
+	background-size: contain;
+
 }
 
 .sLocation__item--3 {
@@ -4073,6 +4100,14 @@ sVirginBeach__logo img {
 	--sPB: 96px;
 }
 
+.sVilla--dark {
+	background-color: #1f1f1f;
+}
+
+.sVilla .imgBg img {
+	height: auto;
+}
+
 .sVilla .section-title {
 	--sTPB: 30px;
 }
@@ -4117,7 +4152,7 @@ sVirginBeach__logo img {
 	justify-content: center;
 }
 
-.sVilla__item img{
+.sVilla__item img {
 	margin-bottom: 19px;
 	width: 102px;
 	height: 74px;
@@ -4132,11 +4167,103 @@ sVirginBeach__logo img {
 .sVilla__item p {
 	font-size: 18px;
 }
+
 .sVilla__item p b {
-		font-size: 37px;
+	font-size: 37px;
 }
 
 .sVilla__imgWrapper {
+	position: relative;
+	aspect-ratio: 354/553;
+}
+
+.sVilla__imgWrapper img {
+	border-radius: 10px;
+}
+
+.sVilla__imgWrapper:before {
+	content: '';
+	position: absolute;
+	bottom: -25px;
+	right: -25px;
+	border-radius: 10px;
+	border: solid 8px #595959;
+	width: 312px;
+	height: 298px;
+	z-index: -1;
+}
+
+.sVilla__logoWrapper {
+	display: flex;
+	align-items: center;
+}
+
+.sVilla__logoWrapper img {
+	width: 103px;
+	height: 103px;
+	object-fit: contain;
+	margin-right: 8px;
+}
+
+.sVilla__imgTxt p {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+
+.sVilla__imgTxt .sVilla__imgTxtTitle {
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.sVilla__row {
+	margin-bottom: 106px;
+}
+
+.sVilla__3dRow {
+	padding-top: 60px;
+}
+
+.sVilla h4 {
+	font-size: 34px;
+}
+
+.sVilla h5 {
+	font-weight: bold;
+}
+
+.sVilla__3dRow h5{
+	font-size: 25px;
+	margin-bottom: 23px;
+}
+
+.sVilla__3dBlock {
+	border-radius: 10px;
+	padding: 81px 60px 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #595959;
+}
+
+.sVilla__3dBlock img {
+	width: 91px;
+	height: 79px;
+	object-fit: contain;
+	margin-bottom: 23px;
+}
+
+.sVilla__3dBlock h3 {
+	font-size: 34px;
+	text-transform: uppercase;
+	line-height: 1.015;
+	font-weight: normal;
+}
+
+.sVilla__3dBlock h3 b {
+	font-weight: 900;
+	font-size: 60px;
 
 }
+
 /*sVilla end*/
