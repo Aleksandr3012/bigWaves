@@ -1,0 +1,15 @@
+:root {
+	--primary-color: #2eafa3;
+	--second-color: #9b9b9b;
+	--dark-color: #252526;
+	--second-font: "Poppins", serif;
+	--btn-shadow: 0 5px 0 #1d736b;
+	--green-shadow: 2px 0 120px var(--primary-color);
+	--btn-gradient: linear-gradient(90deg, #27988e 0%, var(--primary-color) 100%);
+	--tr: .25s ease-in-out;
+	--sPT: 72px;
+	--sPB: 100px;
+	--sTPB: 35px;
+	--bs-primary-rgb: 46, 175, 163;
+	--bs-danger-rgb: 255, 60, 0;
+}
